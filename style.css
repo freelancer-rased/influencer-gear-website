@@ -4,7 +4,8 @@
   font-family: "Poppins", serif;
 }
 
-body {
+main,
+header {
   padding: 0 130px;
 }
 
@@ -106,32 +107,56 @@ nav h2 {
   font-weight: 600;
 }
 
-
 /* featured products style  */
-.featured-container{
-    margin: 80px 0 60px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.featured-container {
+  margin: 80px 0 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.featured-container h2{
-    font-size: 2rem;
-    font-weight: 700;
+.featured-container h2 {
+  font-size: 2rem;
+  font-weight: 700;
 }
 
-.featured-container p{
-    margin: 10px 0;
-    font-weight: 600px;
+.featured-container p {
+  margin: 10px 0;
+  font-weight: 600px;
 }
 
 .featured-container button {
-    padding: 8px 16px;
-    border-radius: 5px;
-    background: rgb(224, 44, 109);
-    color: white;
-    font-size: 1rem;
-    width: 700;
-    border: none;
-  }
+  padding: 8px 16px;
+  border-radius: 5px;
+  background: rgb(224, 44, 109);
+  color: white;
+  font-size: 1rem;
+  width: 700;
+  border: none;
+}
+
+/* footer style  */
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 250px;
+  line-height: 36px;
+}
+
+.footer-container ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: white;
+}
+
+.footer-container h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
