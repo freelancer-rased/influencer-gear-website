@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+body{
+    padding: 0 130px;
+}
+
+/* nav section style  */
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+font-weight: 600;
+}
+
+nav h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
