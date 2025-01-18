@@ -1,37 +1,72 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
 }
 
-body{
-    padding: 0 130px;
+body {
+  padding: 0 130px;
 }
 
 /* nav section style  */
-.navbar-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between ;
-    padding: 20px;
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 40px;
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
 }
 
-nav ul a{
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-font-weight: 600;
+nav ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
 }
 
-nav h2{
-    font-size: 24px;
-    font-weight: 700;
+nav h2 {
+  font-size: 24px;
+  font-weight: 700;
 }
 
+/* hero-container style  */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 15px 0;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  border-radius: 41px;
+  background: rgb(224, 44, 109);
+  color: white;
+  font-size: 1rem;
+  width: 700;
+  border: none;
+}
+
+.hero-banner img {
+  background-image: url("./images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
