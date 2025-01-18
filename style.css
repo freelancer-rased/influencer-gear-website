@@ -68,5 +68,40 @@ nav h2 {
   background-image: url("./images/Circle\ design.svg");
   background-repeat: no-repeat;
   background-position: center;
-  
+}
+
+/* logo section style  */
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px;
+}
+
+/* popular collection style  */
+.card {
+  padding: 10px 10px 20px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.star {
+  color: rgb(251, 130, 0);
+}
+
+.rating {
+  margin: 10px 0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.popular-container > h2 {
+  text-align: center;
+  margin: 80px 0 40px 0;
+  font-size: 28px;
+  font-weight: 600;
 }
