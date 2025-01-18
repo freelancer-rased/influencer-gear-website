@@ -105,3 +105,33 @@ nav h2 {
   font-size: 28px;
   font-weight: 600;
 }
+
+
+/* featured products style  */
+.featured-container{
+    margin: 80px 0 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.featured-container h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.featured-container p{
+    margin: 10px 0;
+    font-weight: 600px;
+}
+
+.featured-container button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    background: rgb(224, 44, 109);
+    color: white;
+    font-size: 1rem;
+    width: 700;
+    border: none;
+  }
